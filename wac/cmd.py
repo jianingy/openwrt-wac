@@ -64,7 +64,7 @@ def _val(d, path, transformer=lambda x: unicode(x)):
 @click.option('--debug', flag_value=True, default=False,
               help='enable debug mode')
 @click.option('--timeout', default=5, help='timeout')
-@click.option('--group-dir', default='groups',
+@click.option('--group-dir', default='/etc/wac/groups',
               help='directory of group definition files')
 def wac(group_dir, debug, timeout):
     define('debug', default=debug)
