@@ -20,13 +20,13 @@
 import setuptools
 
 setuptools.setup(
-    name='wac',
-    version='0.1.0',
+    name='openwrt-wac',
+    version='0.1.1',
     description=('a simple command line tool for managing '
                  'groups of openwrt based rotuers'),
     author='Jianing Yang',
     author_email='jianingy.yang@gmail.com',
-    url='http://github.com/jianingy/wac',
+    url='http://github.com/jianingy/openwrt-wac',
     install_requires=['tornado', 'click', 'humanize'],
     packages=['wac'],
     entry_points={
@@ -35,7 +35,7 @@ setuptools.setup(
             ]
         },
     classifiers=[
-        'Development Status :: 4 - Beta Development Status',
+        'Development Status :: 4 - Beta',
         'Environment :: Console',
         'Topic :: Utilities',
     ],
