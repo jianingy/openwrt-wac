@@ -12,7 +12,18 @@ WAC is a simple command line tool for managing groups of openwrt based rotuers.
 
 # Installation
 
-TBD ...
+Install from pypi,
+
+```
+pip install openwrt-wac
+```
+
+Install from source,
+```
+git clone https://github.com/jianingy/openwrt-wac.git
+cd openwrt-wac
+python ./setup.py install
+```
 
 # Basic Usage
 
